@@ -139,7 +139,7 @@ void remove(Customer ** head, char *code){
 void update(Customer* head){
     int valid=0;
     char temp[6];
-    Customer * id = NULL;
+    Customer * id;
 
     do{
         printf("Enter ID: ");
